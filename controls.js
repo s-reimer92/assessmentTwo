@@ -26,10 +26,10 @@ function randomFace(){
     mouth.style.width = r4.value + "%";
     document.getElementById("colorchoose").value = '#'+Math.floor(Math.random()*16777215).toString(16);
     document.getElementById("preview").style.backgroundColor = document.getElementById("colorchoose").value;
-    hair.src = "img/hair"+hairvar+".png";
-    eyes.src = "img/eyes"+eyevar+".png";
-    nose.src = "img/nose"+nosevar+".png";
-    mouth.src = "img/mouth"+mouthvar+".png";
+    hair.src = "hair"+hairvar+".png";
+    eyes.src = "eyes"+eyevar+".png";
+    nose.src = "nose"+nosevar+".png";
+    mouth.src = "mouth"+mouthvar+".png";
     console.log(r1.value, r2.value);
 }
 function createFace(){
