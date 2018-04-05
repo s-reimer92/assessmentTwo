@@ -41,22 +41,22 @@ function createFace(){
     newpic.style.position = "relative";
     newpic.className = "col-xl-1 col-lg-2 col-md-2 col-sm-3";
     var newHair = document.createElement("img");
-    newHair.src = "img/hair"+hairvar+".png";
+    newHair.src = "hair"+hairvar+".png";
     newHair.style.width = r1.value + "%";
     newHair.style.top = "0px";
     newHair.className = "thumbitems";
     var newEyes = document.createElement("img");
-    newEyes.src = "img/eyes"+eyevar+".png";
+    newEyes.src = "eyes"+eyevar+".png";
     newEyes.style.width = r2.value + "%";
     newEyes.style.top = "40px";
     newEyes.className = "thumbitems";
     var newNose = document.createElement("img");
-    newNose.src = "img/nose"+nosevar+".png";
+    newNose.src = "nose"+nosevar+".png";
     newNose.style.width = r3.value + "%";
     newNose.style.top = "55px";
     newNose.className = "thumbitems";
     var newMouth = document.createElement("img");
-    newMouth.src = "img/mouth"+mouthvar+".png";
+    newMouth.src = "mouth"+mouthvar+".png";
     newMouth.style.width = r4.value + "%";
     newMouth.style.top = "75px";
     newMouth.className = "thumbitems";
@@ -110,28 +110,28 @@ hair.addEventListener("click", function(){
         hairvar = 0;
     }
     hairvar++;
-    hair.src = "img/hair"+hairvar+".png";
+    hair.src = "hair"+hairvar+".png";
 });
 eyes.addEventListener("click", function(){
     if(eyevar >= 3){
         eyevar = 0;
     }
     eyevar++;
-    eyes.src = "img/eyes"+eyevar+".png";
+    eyes.src = "eyes"+eyevar+".png";
 });
 nose.addEventListener("click", function(){
     if(nosevar >= 3){
         nosevar = 0;
     }
     nosevar++;
-    nose.src = "img/nose"+nosevar+".png";
+    nose.src = "nose"+nosevar+".png";
 });
 mouth.addEventListener("click", function(){
     if(mouthvar >= 3){
         mouthvar = 0;
     }
     mouthvar++;
-    mouth.src = "img/mouth"+mouthvar+".png";
+    mouth.src = "mouth"+mouthvar+".png";
 });
 //Create Elements
 document.getElementById("plus").addEventListener("click", function(){
