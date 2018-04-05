@@ -1,0 +1,35 @@
+#controls {
+    width:45%;
+    height:75px;
+}
+#r1, #r2, #r3, #r4 {
+    width:10%;
+}
+#range, #number, #random, #plus, #autoRandom, #stopRandom {
+    font-size: 12px;
+}
+#range, #autoRandom, #stopRandom {
+    border-radius: 6px;
+}
+#number {
+    color:white;
+    background-color: black;
+}
+#random {
+    background-color: pink;
+}
+#plus {
+    color: white;
+    background-color: grey;
+
+}
+.thumbitems {
+    left:0;
+    right:0;
+    margin: auto;
+    position: absolute;
+    height: auto;
+}
+#thumbBox {
+    width:100vw;
+}}
